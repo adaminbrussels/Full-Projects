@@ -1,8 +1,55 @@
+@font-face{
+    font-family: GothamBold;
+    src: url("./type/GothamBold.ttf");
+} 
+
 body{
     margin:0;
+    font-family: Roboto, sans-serif;
+}
+
+header{
+    width:100%;
+    height:64px;
+    position:fixed;
+    display:flex;
+    padding:1rem 0 0 1rem;
+    justify-content: space-between;
+}
+
+.header-group{
+    height:inherit;
+    display:flex;
+    margin:0 1rem 1rem 0;
+    box-shadow: 0 5px 20px -10px #000000;
 }
 
 canvas{
     width:100%;
     height:100%;
+}
+
+input{
+    max-width: 8rem;
+    font-size: x-large;
+    padding: 1em;
+    border-width: 0;
+    outline:none;
+}
+
+
+button{
+    font-size: x-large;
+    font-family:GothamBold, sans-serif;
+    color:white;
+    background-color: #ec4f41;
+    padding:0 1rem;
+    border:none;
+    outline:none;
+}
+
+.button-secondary{
+    color: #ec4f41;
+    border:2px solid #ec4f41;
+    background-color: white;
 }
